@@ -4,13 +4,13 @@
 
 * Run the script
 
-  * CPU or GPU if available: `python ./main.py`
+  * on CPU or GPU if available: `python ./main.py`
 
   * force CPU: `python ./main.py --cpu`
 
-  * multi GPU and single/multi TPU:
-    * `accelerate config`
-    * `accelerate launch ./main.py`
+  * on multi GPU and single/multi TPU:
+    * set config with `accelerate config`
+    * launch with `accelerate launch ./main.py`
 
 ## Notes
 
