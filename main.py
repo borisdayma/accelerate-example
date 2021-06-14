@@ -107,7 +107,7 @@ def training_function(config, args):
         if accelerator.is_local_main_process:
             print(f'Starting epoch {epoch+1}')
         model.train()
-        for step, batch in tqdm(enumerate(train_dataloader), disable=not accelerator.is_local_main_process):
+        for step, batch in enumerate(tqdm(train_dataloader, disable=not accelerator.is_local_main_process)):
             # We could avoid this line since we set the accelerator with `device_placement=True`.
             batch.to(accelerator.device)
             outputs = model(**batch)
