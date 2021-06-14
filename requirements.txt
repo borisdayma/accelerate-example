@@ -1,0 +1,8 @@
+wandb
+torch
+accelerate
+transformers
+datasets
+scipy
+sklearn
+tqdm
