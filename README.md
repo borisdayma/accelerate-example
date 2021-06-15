@@ -1,4 +1,15 @@
-## Instructions
+## Instruction on colab
+
+* open [colab notebook](https://colab.research.google.com/drive/1WiXjIk_qDMnBmeX2qv5Zqo_l9-8Nl97i?usp=sharing)
+
+* set runtime instance
+
+* set `use_wandb` to `True/False`
+
+* always interrupt and restart instance between experiments
+
+
+## Instructions on local
 
 * install `requirements.txt`
 
